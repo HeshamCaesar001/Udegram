@@ -12,6 +12,6 @@
         "api:start": "cd udagram/udagram-api && npm run dev",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
         "deploy": "npm run api:deploy && npm run frontend:deploy",
-        "eb": "cd udagram/udagram-api && eb init udagram-api --platform Node.js 14 --region us-est-1"
+        "eb": "cd udagram/udagram-api && eb init udagram-api --platform Node.js  --region us-est-1"
     }
 }
