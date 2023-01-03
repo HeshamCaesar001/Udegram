@@ -13,7 +13,7 @@
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
         "deploy": "npm run api:deploy",
         "eb:deploy": "cd udagram/udagram-api && eb init udagram-api --platform '64bit Amazon Linux 2 v5.6.3 running Node.js 14'  --region us-east-1 && eb create --sample udagram-api-dev",
-        "eb:build": "cd udagram/udagram-api && eb init udagram-api '64bit Amazon Linux 2 v5.6.3 running Node.js 14'   --region us-east-1"
+        "eb:build": "cd udagram/udagram-api && eb init udagram-api --platform '64bit Amazon Linux 2 v5.6.3 running Node.js 14' --region us-east-1"
 
     }
 }
