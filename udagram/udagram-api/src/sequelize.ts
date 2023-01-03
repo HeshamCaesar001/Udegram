@@ -6,7 +6,7 @@ export const sequelize = new Sequelize({
   password: config.password,
   database: config.database,
   host: config.host,
-  port: (config.port as unknown) as number,
+  port: (config.db_Port as unknown) as number,
 
   dialect: "postgres",
   storage: ":memory:",
