@@ -49,7 +49,7 @@ jobs:
           name: API Build
           command: |
             echo "TODO: Build the backend API"
-            npm run eb
+            npm run eb:build
             npm run api:build
   # deploy step will run only after manual approval
   deploy:
@@ -67,6 +67,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
+            npm run eb:deploy
             npm run deploy
             
 workflows:
